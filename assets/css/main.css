@@ -1,5 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 /*
 	Dimension by HTML5 UP
@@ -216,10 +218,21 @@ input, select, textarea {
 
 	h4 {
 		font-size: 0.8rem;
+		/*font-family: 'Alkatra', cursive;*/
+		font-family: 'Montserrat', sans-serif;
+		text-transform: none;
+		font-weight: 100;
 	}
 
 	h5 {
-		font-size: 0.7rem;
+		font-size: 1rem;
+		/*font-family: "Courier New", monospace;
+		font-family: 'Montserrat', sans-serif;*/
+		font-family: "Source Sans Pro", sans-serif;
+		font-weight: 300;
+		font-size: 1rem;
+		line-height: 1.65;
+		text-transform: none;
 	}
 
 	h6 {
@@ -1535,15 +1548,14 @@ input, select, textarea {
 
 	
 	#main nav ul {
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
+		position:relative;
 		display: flex;
 		margin-bottom: 0;
 		list-style: none;
 		padding-left: 0;
 		border: solid 1px #ffffff;
 		border-radius: 4px;
+		max-width:fit-content;
 	}
 
 		#main nav ul li {
